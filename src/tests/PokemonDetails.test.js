@@ -7,8 +7,6 @@ import App from '../App';
 test('testa a page PokemonsDetails', () => {
   const { history } = renderWithRouter(<App />);
 
-  const summary = 'This intelligent Pokémon roasts hard berries with';
-
   const src1 = 'https://cdn2.bulbagarden.net/upload/b/b2/Spr_5b_025_m.png';
   const src2 = 'https://cdn2.bulbagarden.net/upload/0/08/Kanto_Route_2_Map.png';
   const src3 = 'https://cdn2.bulbagarden.net/upload/b/bd/Kanto_Celadon_City_Map.png';
